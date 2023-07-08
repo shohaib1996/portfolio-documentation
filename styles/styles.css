@@ -187,21 +187,75 @@ main section {
 
 /* resume styles */
 .resume-exp-title {
-    color:  #474747;
-    font-size: 30px; 
+    color: #474747;
+    font-size: 30px;
 }
+
 .resume-container {
     display: flex;
+    gap: 50px;
+
+
 }
-.resume-parts-title{
-    color:  #474747;  
-    font-size: 25px;   
+
+.resume-parts-title {
+    color: #474747;
+    font-size: 25px;
 }
+
 .resume-parts-info {
-    color: #757575;   
+    color: #757575;
     font-size: 20px;
 }
-.resume-description{
+
+.resume-description {
     color: #757575;
-    font-size: 16px;  
+    font-size: 16px;
+}
+
+.download-cv {
+    margin-top: 50px;
+}
+
+footer {
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 200px;
+    gap: 100px;
+}
+
+.footer-description {
+    color: #474747;
+    font-size: 16px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-links a {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.btn-submit {
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+}
+input, textarea{
+    margin-bottom: 25px;
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    border: none;
+    padding: 18px 350px 18px 30px;
 }
