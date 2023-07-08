@@ -117,8 +117,8 @@ nav li {
 .section-info {
     display: flex;
     list-style: none;
-    
-    
+
+
 
 }
 
@@ -127,21 +127,26 @@ nav li {
     color: #757575;
     text-align: center;
     font-size: 20px;
-    
+
 }
-main{
+
+main {
     width: 1140px;
     margin: 230px auto;
     text-align: center;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about section style */
 .about {
-    
+
     border-radius: 10px;
     background: #FFF8F3;
     text-align: center;
-    
+
 }
 
 .section-title {
@@ -155,6 +160,48 @@ main{
     padding: 30px 0px;
 
 }
-#what-i-do{
-    padding:  30px 150px; 
+
+#what-i-do {
+    padding: 30px 150px;
+}
+
+.skill-container {
+    display: flex;
+    text-align: left;
+
+}
+
+.skill {
+    padding: 30px;
+    gap: 24px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-description {
+    color: #757575;
+    font-size: 16px;
+
+}
+
+/* resume styles */
+.resume-exp-title {
+    color:  #474747;
+    font-size: 30px; 
+}
+.resume-container {
+    display: flex;
+}
+.resume-parts-title{
+    color:  #474747;  
+    font-size: 25px;   
+}
+.resume-parts-info {
+    color: #757575;   
+    font-size: 20px;
+}
+.resume-description{
+    color: #757575;
+    font-size: 16px;  
 }
